@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+  border: 2px solid black;
+  margin-top: 0;
+  color: brown;
+}
+input{
+  margin-left: 2em;
+  border: 1px solid black;
+}
+button{
+  background-color: lightblue;
+}
+li{
+  background-color: lightgreen;
+  border: 2px black solid;
+  list-style: none;
+  margin: 2px;
+}
