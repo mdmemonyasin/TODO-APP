@@ -26,7 +26,7 @@ class Task extends  React.Component{
             body: JSON.stringify(data),
         };
 
-        const request = new Request('http://localhost:8080/postTask',options); 
+        const request = new Request('https://internship-challange.herokuapp.com/postTask',options); 
         const responce = await  fetch(request);
         const status = await responce.status;
         if(status===201){
