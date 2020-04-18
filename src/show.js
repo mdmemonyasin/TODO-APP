@@ -3,8 +3,6 @@ import './App.css';
 
 
 class Show extends React.Component {
-    // bro you are not using state and hence it is not rendering
-    // bro can you imlement it
 
     constructor(props) {
         super(props);
@@ -17,7 +15,7 @@ class Show extends React.Component {
 
 
     async componentDidMount() {
-        const url = "http://localhost:8080/getTask";
+        const url = "https://internship-challange.herokuapp.com/getTask";
         const responce = await fetch(url);
         const data = await responce.json();
         const status = responce.status;
