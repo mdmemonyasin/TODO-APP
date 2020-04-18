@@ -3,6 +3,10 @@ import './App.css';
 
 
 class Show extends React.Component {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8dc4a89e82d1aff702e5774e7473eef28a5a9870
     constructor(props) {
         super(props);
         this.state = { tasks: [] };
